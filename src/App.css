@@ -1,0 +1,20 @@
+/* Estiliza o scrollbar (a barra em si) */
+::-webkit-scrollbar {
+  width: 5px; /* Largura do scrollbar */
+}
+
+/* Estiliza o track do scrollbar (o trajeto que a barra de rolagem segue) */
+::-webkit-scrollbar-track {
+  background: none; /* Cor de fundo do track */
+}
+
+/* Estiliza a barra de rolagem (a parte que você arrasta) */
+::-webkit-scrollbar-thumb {
+  background: #4d856e; /* Cor da barra de rolagem */
+  border-radius: 6px; /* Arredonda os cantos da barra de rolagem */
+}
+
+/* Estilo da barra de rolagem quando o mouse está sobre ela */
+::-webkit-scrollbar-thumb:hover {
+  background: #365e4e; /* Cor da barra de rolagem ao passar o mouse */
+}
